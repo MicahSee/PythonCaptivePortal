@@ -1,0 +1,9 @@
+This is a captive portal written in python that leverages linux iptables.
+
+The iptables configuration required must be loaded using the command "iptables-restore < iptables.v4"
+
+Python Version: 2.7
+Requirements: flask, python-iptables
+
+**As of right now the captive portal only supports intercepting http requests
+**The plan is to add https support soon
